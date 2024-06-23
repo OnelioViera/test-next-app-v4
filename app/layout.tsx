@@ -1,4 +1,5 @@
 import '@/assets/styles/globals.css';
+import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 
 export const metadata = {
@@ -19,6 +20,9 @@ const layout = ({ children } : { children: ReactNode }) => {
         <main>
           {children}
         </main>
+
+        <Footer />
+
       </body>
     </html>
   )
