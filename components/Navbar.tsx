@@ -16,7 +16,7 @@ const Navbar = () => {
       </Link>
       <Link href='/link'
       className={`${pathname === '/link' ? 'font-bold border-b-2' : ''}`}>
-      LINK PAGE
+      LINK 1
       </Link>
     </nav> 
   )
