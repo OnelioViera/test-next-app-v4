@@ -11,11 +11,11 @@ const Navbar = () => {
     <nav className="flex justify-center py-6 bg-black text-white space-x-3 shadow-lg">
       <Link
         href='/'
-        className={`${pathname === '/' ? 'font-bold border-b-4' : ''}`}>
+        className={`${pathname === '/' ? 'font-bold border-b-2' : ''}`}>
       HOME
       </Link>
       <Link href='/link'
-      className={`${pathname === '/link' ? 'font-bold border-b-4' : ''}`}>
+      className={`${pathname === '/link' ? 'font-bold border-b-2' : ''}`}>
       LINK PAGE
       </Link>
     </nav> 
