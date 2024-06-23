@@ -8,7 +8,7 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="flex justify-center py-6 bg-black text-white space-x-3 ">
+    <nav className="flex justify-center py-6 bg-black text-white space-x-3 shadow-lg">
       <Link
         href='/'
         className={`${pathname === '/' ? 'font-bold border-b-4' : ''}`}>
