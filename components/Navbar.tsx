@@ -14,9 +14,13 @@ const Navbar = () => {
         className={`${pathname === '/' ? 'font-bold border-b-2 border-red-500' : ''}`}>
       HOME
       </Link>
-      <Link href='/link'
-      className={`${pathname === '/link' ? 'font-bold border-b-2 border-red-500' : ''}`}>
+      <Link href='/link_1'
+      className={`${pathname === '/link_1' ? 'font-bold border-b-2 border-red-500' : ''}`}>
       LINK 1
+      </Link>
+      <Link href='/link_2'
+      className={`${pathname === '/link_2' ? 'font-bold border-b-2 border-red-500' : ''}`}>
+      LINK 2
       </Link>
     </nav> 
   )
