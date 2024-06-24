@@ -11,11 +11,11 @@ export const metadata = {
 
 import { ReactNode } from 'react';
 
-const layout = ({ children } : { children: ReactNode }) => {
+const layout = ({ children }: { children: ReactNode }) => {
   return (
     <html lang='en'>
       <body className='flex flex-col min-h-screen'>
-      <Navbar />
+        <Navbar />
 
         <main>
           {children}
