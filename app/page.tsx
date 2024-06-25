@@ -7,8 +7,13 @@ const page = () => {
     <>
     <div className="">
       <Header />
-    </div>
+      </div> 
+      <div className="container mx-auto gap-6 flex justify-center">
+
       <Card />
+      <Card />
+
+      </div>
       </>
   )
 };
