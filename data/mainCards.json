@@ -1,5 +1,17 @@
 [
   {
-
+    "id": 1,
+    "title": "The Shawshank Redemption",
+    "body": "The Shawshank Redemption' is a highly-acclaimed movie that tells the story of Andy Dufresne, a banker who is sentenced to life in Shawshank State Pen."
+  },
+  {
+    "id": 2,
+    "title": "The Godfather",
+    "body": "The Godfather' is a crime movie directed by Francis Ford Coppola that was released in 1972. The film stars Marlon Brando and Al Pacino as the leaders of a powerful New York crime family."
+  },
+  {
+    "id": 3,
+    "title": "The Dark Knight",
+    "body": "The Dark Knight' is a superhero movie directed by Christopher Nolan that was released in 2008. The film stars Christian Bale as Batman and Heath Ledger as the Joker."
   }
 ]

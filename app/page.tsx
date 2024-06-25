@@ -9,7 +9,7 @@ const page = () => {
       <Header />
       </div> 
       <div className="flex justify-center">
-      <div className="lg:grid grid-cols-2 gap-6">
+      <div className="grid py-8 lg:grid-cols-2 md:flex md:py-10 gap-6">
 
       <Card />
       <Card />
