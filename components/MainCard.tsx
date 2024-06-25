@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Card = ({ MainCard }) => {
+const MainCard = () => {
   return (
     <>
       <div className="bg-gray-100 max-w-96 rounded-t-lg shadow-lg">
@@ -19,4 +19,4 @@ const Card = ({ MainCard }) => {
   )
 };
 
-export default Card;
+export default MainCard;
