@@ -8,11 +8,13 @@ const page = () => {
     <div className="">
       <Header />
       </div> 
-      <div className="container mx-auto gap-6 flex justify-center">
+      <div className="flex justify-center">
+      <div className="lg:grid grid-cols-2 gap-6">
 
       <Card />
       <Card />
 
+      </div>
       </div>
       </>
   )
